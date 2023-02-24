@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     echo "2141720152 Khafillah Akbar";
 });
+
+Route::get('/articles/{id}', function ($id) {
+    echo "“Halaman Artikel dengan ID {$id}" ;
+});
